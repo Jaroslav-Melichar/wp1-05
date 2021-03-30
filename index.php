@@ -1,3 +1,4 @@
+<?php $vodkaPrice = 119; $homelessMoney = 132; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +11,10 @@
 
 <?php
 
-echo "Cena vodky: 119 " . $vodkaPrice;
+echo "Cena vodky: " . $vodkaPrice;
+echo "Penize bezdomovce: " . $homelessMoney;
 
-echo "<br>Peníze bezdomovce před návštěvou večerky: 132 " . $homelessMoney . "<br>";
+echo "<br>Peníze bezdomovce před návštěvou večerky: " . $homelessMoney . "<br>";
 
 if($homelessMoney > 132 ) {
     echo "Vodka zakoupena!";
@@ -22,7 +24,7 @@ if($homelessMoney > 132 ) {
     echo "Cena vodky spadla nyní si ji můžeš zakoupit";
 }
 
-echo "<br>Peníze bezdomovce po návštěvě večerky: 13 " . $homelessMoney . "<br>";
+echo "<br>Peníze bezdomovce po návštěvě večerky: " . $homelessMoney . "<br>";
 
 ?>
 
