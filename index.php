@@ -24,6 +24,8 @@ if($homelessMoney > 132 ) {
     echo "Cena vodky spadla nyní si ji můžeš zakoupit";
 }
 
+echo "<br>Peníze bezdomovce po návštěvě večerky: 13 " . $homelessMoney . "<br>";
+
 ?>
 
 
