@@ -12,12 +12,13 @@
 <?php
 
 echo "Cena vodky: " . $vodkaPrice;
-echo "Penize bezdomovce: " . $homelessMoney;
+echo "<br> Penize bezdomovce: " . $homelessMoney . "<br>"; 
 
 echo "<br>Peníze bezdomovce před návštěvou večerky: " . $homelessMoney . "<br>";
 
-if($homelessMoney > 132 ) {
+if($homelessMoney > $vodkaPrice ) {
     echo "Vodka zakoupena!";
+    $homelessMoney = $homelessMoney - $vodkaPrice;
  } elseif($homelessMoney < 119) {
      echo "Nedostatek peněz";
  } elseif ($vodkaPrice < 100) {
