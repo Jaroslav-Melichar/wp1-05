@@ -10,8 +10,6 @@
 
 <?php
 
-
-
 echo "Cena vodky: 119 " . $vodkaPrice;
 
 echo "<br>Peníze bezdomovce před návštěvou večerky: 132 " . $homelessMoney . "<br>";
